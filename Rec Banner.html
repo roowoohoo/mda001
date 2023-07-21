@@ -1,0 +1,198 @@
+<!DOCTYPE <html>
+    <head>
+        <title>Mario Lego Advertisement</title>
+
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            }
+
+            .maincontainer {
+                position: relative;
+                width: 1360px;
+                height: 446px;
+                margin-top: 100px;
+                margin-left: 25%;
+                background: #54a8e0;
+                overflow: hidden;
+            } 
+
+
+        .logo{
+            position: absolute;
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            z-index: 4;
+        }
+
+        .mario {
+            position: relative;
+            margin-top: 200px;
+            margin-left: 55px;
+            animation-name: marioright;
+            animation-duration: 4s;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        @keyframes marioright {
+            0%   { left: 20px; }
+            100% { left: 1200px; }
+        } 
+
+        .goldcoin{
+            position:relative;
+            left: 350px;
+            bottom: 150px;
+            animation-name: goldcoinup;
+            animation-duration: 4s;
+        }
+
+        @keyframes goldcoinup {
+            0% { opacity: 1; }
+            10% { opacity: 1; }
+            50% { opacity: 0; }
+            55% { opacity: 0; }
+            65% { opacity: 0; }
+            70% { opacity: 0; }
+            85% { opacity: 0; }
+            100% { opacity: 0; }
+        } 
+
+        .goldcoin2 {
+            position:relative;
+            left: 650px;
+            bottom: 220px;
+            animation-name: goldcoinup2;
+            animation-duration: 4s;
+        }
+
+        @keyframes goldcoinup2 {
+            0% { opacity: 1; }
+            10% { opacity: 1; }
+            20% { opacity: 1; }
+            55% { opacity: 0; }
+            65% { opacity: 0; }
+            70% { opacity: 0; }
+            85% { opacity: 0; }
+            100% { opacity: 0; }
+        } 
+
+        .goldcoin3 {
+            position:relative;
+            left: 950px;
+            bottom: 290px;
+            animation-name: goldcoinup3;
+            animation-duration: 4s;
+        }
+
+        @keyframes goldcoinup3 {
+            0% { opacity: 1; }
+            10% { opacity: 1; }
+            20% { opacity: 1; }
+            35% { opacity: 1; }
+            65% { opacity: 0; }
+            70% { opacity: 0; }
+            85% { opacity: 0; }
+            100% { opacity: 0; }
+        } 
+
+        .pipe {
+            position: absolute;
+            left: 1200px ;
+            top: 190px;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .banner{
+            position: absolute;
+            animation-name: movebanner;
+            animation-duration: 6s;
+            z-index: 3;
+        }
+
+
+        @keyframes movebanner {
+            0%   { left: -1360px; }
+            100% { left: 0px; }
+        }
+
+        .background {
+            position:absolute;
+            bottom: -30px;
+        }
+
+        .clouds {
+            position:absolute;
+        }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="maincontainer">
+            
+            <div class="logo">
+                <img src="assignment1/photos/boxlogo.png" alt="lego" style="width: 150px; height: 60px; margin-left: 30px ;margin-top: 20px;">
+            </div>
+
+
+            <div class="banner">
+                <img src="assignment1/photos/recbanner.png" alt="banner" style="width: 1360; height: 446px;">
+            </div>
+
+            <div class="background">
+                <img src="assignment1/photos/background.png" alt="bg" style="width: 1400px; height: 550px;">
+            </div>
+
+            <div class="clouds">
+                <img src="assignment1/photos/clouds.png" alt="bg" style="width: 300px; height: 150px; margin-left: 400px;">
+            </div>
+
+            <div class="clouds">
+                <img src="assignment1/photos/clouds.png" alt="bg" style="width: 300px; height: 150px; margin-left: 1000px;margin-top: 50px;">
+            </div>
+
+            <div class="clouds">
+                <img src="assignment1/photos/clouds.png" alt="bg" style="width: 300px; height: 150px; margin-left: -50px;margin-top: 120px;">
+            </div>
+
+            <div class="pipe">
+                <img src="assignment1/photos/pipe.png" alt="pipe" style="width: 220px; height: 220px;">
+            </div>
+
+            <div class="mario">
+                <img src="assignment1/photos/mariosideways.png" alt="mariobros" style=" width: 200px; height: 200px;">
+            </div>
+
+            <div class="goldcoin">
+                <img src="assignment1/photos/coin.png" alt="coin" style="width: 70px; height: 70px;">
+            </div>
+
+            <div class="goldcoin2">
+                <img src="assignment1/photos/coin.png" alt="coin" style="width: 70px; height: 70px;">
+            </div>
+
+            <div class="goldcoin3">
+                <img src="assignment1/photos/coin.png" alt="coin" style="width: 70px; height: 70px;">
+            </div>
+
+
+
+
+        </div> 
+          
+
+       
+
+        
+        
+        
+    </body>
+</html>
+
